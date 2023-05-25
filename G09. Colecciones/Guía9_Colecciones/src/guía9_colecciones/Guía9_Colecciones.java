@@ -29,7 +29,7 @@ public class Guía9_Colecciones {
     int x = 20;
    
     numerosA. add(x); //Agregamos el numero 20 a la lista, en la posición O
-    numerosA. add(50);
+    numerosA. add(50); 
     numerosA. add(4);
     numerosA. add(13);
     numerosA. add(3);
