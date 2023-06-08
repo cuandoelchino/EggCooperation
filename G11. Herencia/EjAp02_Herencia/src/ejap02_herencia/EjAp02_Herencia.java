@@ -65,25 +65,17 @@ public class EjAp02_Herencia {
         double sumatv = 0;
         
         for (Electrodomestico ele : listae) {
-      
             sumaprecios += ele.precioFinal();
             
             if (ele instanceof Lavadora) {
-                
                 sumalava += ele.getPrecio();
-                
             } else {
-                
                 sumatv += ele.getPrecio();
-                    
             }
-            
         }
         
         System.out.println("La suma del precio de todos los electrodomésticos es: "+sumaprecios);
-        
         System.out.println("La suma del precio de todas las lavadoras es: "+sumalava);
-        
         System.out.println("La suma del precio de todos los televisores es: "+sumatv);
         
     }
